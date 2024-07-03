@@ -59,9 +59,13 @@ Big O Notation
 - Upper bound means for any given input of this notation, determine the longest amount of time
 an algorithm can take to complete.
 - Determines the worst case scenario.
-- For example - if we say an algorithm takes 100 secs as the longest time. 100 secs is the upper bound of that algorithm. The algorithm can take less than 100 secs but it will not take more than 100 secs
+- For example - if we say an algorithm takes 100 secs as the longest time. 100 secs is the upper bound of that algorithm. The algorithm can take less than 100 secs, but it will not take more than 100 secs
 
-
+Theta Notation
+- it expresses both upper and lower bound of an algorithm's running time
+- for any given input this notation determines average amount of time an algorithm can take to complete
+- for example, if an algorithm takes 100 secs on the first run and 120 secs on the second run, 110 secs on the third run,
+the theta notation with give an average of the running time of that algorithm.
 
 
 
