@@ -43,6 +43,21 @@ input size
     > Best case
     > Average case
     > Worst case
+- Types of Asymptotic Notation
+    > Omega notation
+    > Big O notation
+    > Theta notations
+Omega Notation
+- It is the formal way to express the lower bound of an algorithm's running time
+- Lower bound means for any given input this notation determines best amount of time an algorithm can take to complete
+- Determines the best case of an algorithm
+- For example, if an algorithm takes 100 secs as best amount of time, 100 secs will be the lower bound
+of that algorithm. The algorithm can take more than 100 secs but not less than 100 secs.
+
+
+
+
+
 
 
 
