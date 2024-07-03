@@ -31,6 +31,10 @@ Time complexity - amount of time taken by an algorithm to run
 Space complexity - amount of memory or space taken by an algorithm to run
                 - memory required to process the input by an algorithm helps in determining the space complexity
 
+Asymptotic analysis of an algorithm
+- Asymptotic analysis helps in evaluating performance of an algorithm in terms of input size and its increase
+- We don't measure actual running time of an algorithm
+- it helps in determining how time and space taken by algorithm increases with input size
 
 
 
