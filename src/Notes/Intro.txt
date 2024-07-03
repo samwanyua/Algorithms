@@ -78,7 +78,18 @@ Analysis of time complexity (Big O notation)
     - other small/single operations takes 1 unit of time
     - drop lower order terms. Example.  t = n^2 + 3n + 1 ==> O(n^2), 3n and 1 are lower order terms
     - drop constant multipliers. Example t = n^2 + 6n + 1 ==> O(n^2), 3 and 6 are constant multipliers
-    
 
 
+Calculating Time complexity of Constant Algorithm
+Example 1
+    public int sum(int x, int y){
+        int result = x + y; // 4 operations, 4 units time ... O(1)
+        return result; // 2 operations, 2 unit times ... O(1)
+    }
+    // T = 4 + 2 = 6, T is approximately constant(C)
+
+Example 2
+    public int get(int[] arr, int i){
+        return arr[i]; // O(1)
+    }
 
