@@ -36,5 +36,13 @@ Asymptotic analysis of an algorithm
 - We don't measure actual running time of an algorithm
 - it helps in determining how time and space taken by algorithm increases with input size
 
+Asymptotic notations
+- mathematical tools used to describe the running time of an algorithm in terms of
+input size
+- Asymptotic notations helps us in determining:
+    > Best case
+    > Average case
+    > Worst case
+
 
 
