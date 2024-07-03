@@ -54,8 +54,12 @@ Omega Notation
 - For example, if an algorithm takes 100 secs as best amount of time, 100 secs will be the lower bound
 of that algorithm. The algorithm can take more than 100 secs but not less than 100 secs.
 
-
-
+Big O Notation
+- Expresses upper bound of an algorithm's running time
+- Upper bound means for any given input of this notation, determine the longest amount of time
+an algorithm can take to complete.
+- Determines the worst case scenario.
+- For example - if we say an algorithm takes 100 secs as the longest time. 100 secs is the upper bound of that algorithm. The algorithm can take less than 100 secs but it will not take more than 100 secs
 
 
 
