@@ -67,5 +67,18 @@ Theta Notation
 - for example, if an algorithm takes 100 secs on the first run and 120 secs on the second run, 110 secs on the third run,
 the theta notation with give an average of the running time of that algorithm.
 
+Analysis of time complexity (Big O notation)
+>> Rules of Big O notation
+    - it's a single processor
+    - performs sequential execution of statements
+    - assignment operation takes 1 unit of time
+    - return statement takes in 1 unit of time
+    - arithmetic operation takes 1 unit of time
+    - logical operation take 1 unit of time
+    - other small/single operations takes 1 unit of time
+    - drop lower order terms. Example.  t = n^2 + 3n + 1 ==> O(n^2), 3n and 1 are lower order terms
+    - drop constant multipliers. Example t = n^2 + 6n + 1 ==> O(n^2), 3 and 6 are constant multipliers
+    
+
 
 
