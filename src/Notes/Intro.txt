@@ -6,7 +6,30 @@ Types of data structures:
 Algorithm -> set of instructions to perform a task or solve a given problem
 ex. a recipe book with step-by-step instruction to prepare food
 
+Analysis of an algorithm
+- The best algorithm should run fast and take in less memory
 
+For example, find the sum on n natural numbers. Input n =4, output = 10 that is 1 + 2 + 3 + 4
+
+solution 1:
+public int findSum(int n){
+    return n * (n + 1)/2;
+}
+
+solution 2:
+public int findSum(int n){
+    int sum = 0;
+    for(int i = 0; i <= n; i++){
+        sum = sum + i;
+    }
+    return sum;
+}
+
+
+Time complexity - amount of time taken by an algorithm to run
+                - the input processed by an algorithm help in determining time complexity
+Space complexity - amount of memory or space taken by an algorithm to run
+                - memory required to process the input by an algorithm helps in determining the space complexity
 
 
 
