@@ -1,0 +1,13 @@
+Data structures - is a way to organize data - it becomes easy to process it.
+Types of data structures:
+    - Linear -> connected sequentially, easy to implement. ex. array,linked list, stacks, queue
+    - Non-linear -> not in sequence, they are multi-level, not easy to implement. ex. tree, graph
+
+Algorithm -> set of instructions to perform a task or solve a given problem
+ex. a recipe book with step-by-step instruction to prepare food
+
+
+
+
+
+
