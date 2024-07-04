@@ -73,5 +73,19 @@ public class Array {
         }
     }
 
+    // Find the minimum value in array
+    public int findMinimum(int[] arr){
+        // edge case
+        if(arr == null ||  arr.length == 0){
+            throw new IllegalArgumentException("Invalid input");
+        }
+        int min = arr[0];
+        for (int j : arr) {
+            if (j < min) {
+                min = j;
+            }
+        }
+        return min;
+    }
 
 }
