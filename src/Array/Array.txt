@@ -6,3 +6,17 @@ Arrays
 - All data holding partitions have contiguous memory locations
 - Each partition has two neighbours except the first and last one
 - Index starts at 0 and for one dimensional array ends at length - 1
+
+Declaration of an array
+- 1D arrays can be declared as follows:
+    dataType arrayName[];
+    dataType[] arrayName;
+
+    example:
+    int[] myArray;
+
+Initializing an array
+- It gives memory to array of elements.
+- General syntax:
+    arrayName = new dataType[size];
+    marks = new Integer[20];
