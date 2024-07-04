@@ -27,6 +27,7 @@ public class Array {
         // accessing the last element
         System.out.println(age.length - 1);
     }
+
     // removing elements in an integer
     // ex. remove even numbers in a given array
     // ex. input arr = {3,2,4,7,10,6,5}
@@ -50,5 +51,21 @@ public class Array {
         }
         return result;
     }
+
+    // How to reverse an array in java
+    /* Given an array or string, the task is to reverse the array or string
+        input - {2,11,5,10,7,8}
+        output - {8,7,10,5,11,2}
+     */
+    public void reverseArray(int[] numbers, int start, int end){
+        while(start < end){
+            int temp = numbers[start];
+            numbers[start] = numbers[end];
+            numbers[end] = numbers[start];
+            start++;
+            end--;
+        }
+    }
+
 
 }
