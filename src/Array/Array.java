@@ -13,8 +13,8 @@ public class Array {
         age[4] = 31;
 
         System.out.println(age[0]);
-        for(int i = 0; i <= age.length; i++){
-            System.out.println(age[i]);
+        for (int j : age) {
+            System.out.println(j);
         }
         System.out.println("End of loop");
     }
