@@ -16,8 +16,10 @@ public class Algorithm {
         array.printArray(numbers);
 
         // find minimum value in an array
-        int[] numArray = {5,9,3,15,1,2};
+        int[] numArray = {5,9,3,15,0,2};
         int min = array.findMinimum(numArray);
         System.out.println(min);
+
+
     }
 }

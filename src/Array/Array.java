@@ -88,4 +88,9 @@ public class Array {
         return min;
     }
 
+    // Finding the second maximum value in an array
+    // Given an array of integers return the second maximum value
+    // input: arr = {12,34,2,34,33,1}
+    // output: 33
+
 }
