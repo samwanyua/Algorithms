@@ -1,0 +1,7 @@
+Arrays
+- contiguous or adjacent partitions
+- fixed size and can't be modified once created
+- indexed
+- collection of data elements of specified type
+- All data holding partitions have contiguous memory locations
+- Each partition has two neighbours except the first and last one
