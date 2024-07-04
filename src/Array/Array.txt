@@ -13,10 +13,17 @@ Declaration of an array
     dataType[] arrayName;
 
     example:
-    int[] myArray;
+    int[] marks;
 
 Initializing an array
 - It gives memory to array of elements.
 - General syntax:
     arrayName = new dataType[size];
     marks = new Integer[20];
+
+Declaration and initialization
+- General syntax:
+    dataType[] arrayName = new dataType[size];
+    int[] marks = new int[20];
+    int[] marks = {3,4,5,6,2,7};
+
