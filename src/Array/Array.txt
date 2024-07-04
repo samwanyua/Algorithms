@@ -1,7 +1,8 @@
 Arrays
 - contiguous or adjacent partitions
 - fixed size and can't be modified once created
-- indexed
+- indexed and can be determined by its position
 - collection of data elements of specified type
 - All data holding partitions have contiguous memory locations
 - Each partition has two neighbours except the first and last one
+- Index starts at 0 and for one dimensional array ends at length - 1
