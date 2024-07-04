@@ -13,5 +13,6 @@ public class Algorithm {
         // reversing an array
         int[] numbers = {2,11,5,10,7,8};
         array.reverseArray(numbers, 0, numbers.length - 1);
+        array.printArray(numbers);
     }
 }
