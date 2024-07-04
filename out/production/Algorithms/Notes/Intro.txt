@@ -1,0 +1,122 @@
+Data structures - is a way to organize data - it becomes easy to process it.
+Types of data structures:
+    - Linear -> connected sequentially, easy to implement. ex. array,linked list, stacks, queue
+    - Non-linear -> not in sequence, they are multi-level, not easy to implement. ex. tree, graph
+
+Algorithm -> set of instructions to perform a task or solve a given problem
+ex. a recipe book with step-by-step instruction to prepare food
+
+Analysis of an algorithm
+- The best algorithm should run fast and take in less memory
+
+For example, find the sum on n natural numbers. Input n =4, output = 10 that is 1 + 2 + 3 + 4
+
+solution 1:
+public int findSum(int n){
+    return n * (n + 1)/2;
+}
+
+solution 2:
+public int findSum(int n){
+    int sum = 0;
+    for(int i = 0; i <= n; i++){
+        sum = sum + i;
+    }
+    return sum;
+}
+
+
+Time complexity - amount of time taken by an algorithm to run
+                - the input processed by an algorithm help in determining time complexity
+Space complexity - amount of memory or space taken by an algorithm to run
+                - memory required to process the input by an algorithm helps in determining the space complexity
+
+Asymptotic analysis of an algorithm
+- Asymptotic analysis helps in evaluating performance of an algorithm in terms of input size and its increase
+- We don't measure actual running time of an algorithm
+- it helps in determining how time and space taken by algorithm increases with input size
+
+Asymptotic notations
+- mathematical tools used to describe the running time of an algorithm in terms of
+input size
+- Asymptotic notations helps us in determining:
+    > Best case
+    > Average case
+    > Worst case
+- Types of Asymptotic Notation
+    > Omega notation
+    > Big O notation
+    > Theta notations
+Omega Notation
+- It is the formal way to express the lower bound of an algorithm's running time
+- Lower bound means for any given input this notation determines best amount of time an algorithm can take to complete
+- Determines the best case of an algorithm
+- For example, if an algorithm takes 100 secs as best amount of time, 100 secs will be the lower bound
+of that algorithm. The algorithm can take more than 100 secs but not less than 100 secs.
+
+Big O Notation
+- Expresses upper bound of an algorithm's running time
+- Upper bound means for any given input of this notation, determine the longest amount of time
+an algorithm can take to complete.
+- Determines the worst case scenario.
+- For example - if we say an algorithm takes 100 secs as the longest time. 100 secs is the upper bound of that algorithm. The algorithm can take less than 100 secs, but it will not take more than 100 secs
+
+Theta Notation
+- it expresses both upper and lower bound of an algorithm's running time
+- for any given input this notation determines average amount of time an algorithm can take to complete
+- for example, if an algorithm takes 100 secs on the first run and 120 secs on the second run, 110 secs on the third run,
+the theta notation with give an average of the running time of that algorithm.
+
+Analysis of time complexity (Big O notation)
+>> Rules of Big O notation
+    - it's a single processor
+    - performs sequential execution of statements
+    - assignment operation takes 1 unit of time
+    - return statement takes in 1 unit of time
+    - arithmetic operation takes 1 unit of time
+    - logical operation take 1 unit of time
+    - other small/single operations takes 1 unit of time
+    - drop lower order terms. Example.  t = n^2 + 3n + 1 ==> O(n^2), 3n and 1 are lower order terms
+    - drop constant multipliers. Example t = n^2 + 6n + 1 ==> O(n^2), 3 and 6 are constant multipliers
+
+
+Calculating Time complexity of Constant Algorithm
+Example 1
+    public int sum(int x, int y){
+        int result = x + y; // 4 operations, 4 units time ... O(1)
+        return result; // 2 operations, 2 unit times ... O(1)
+    }
+    // T = 4 + 2 = 6, T is approximately constant(C)
+
+Example 2
+    public int get(int[] arr, int i){
+        return arr[i]; // O(1)
+    }
+
+Calculating Time complexity of Linear Algorithm
+Example 1
+    public void findSum(int n){
+        int sum = 0; // 1 step ... 1 operation ... 1 unit time
+        for(int i = 0; i <= n; i++){ // 1 + 3(n + 1) + 3n ... 6n + 4 unit time
+            sum = sum + i; // n steps ... 4n operations, 4n unit time
+        }
+        return sum; // 1 step ... 2 operations, 2 unit times
+    }
+    // T = 1 + 6n + 4 + 4n + 2
+    // T = 10n + 7
+    // Time complexity ==> O(n)
+
+Calculating Time complexity of Polynomial Algorithm
+Example 1
+    public void print(int n){
+        for(int i = 1; i <= n; i++){ // 1 + 3(n +1) + 3n operations, 6n + 4 unit time
+            for(int j = 1; j <= n; j++){ // n(1 + 3(n +1) + 3n) = 6n^2 + 4n
+                s.o.p("i=" + i + ", j = "+j); // 3n^2
+            }
+            s.o.p("End of inner loop"); //n
+        }
+        s.o.p("End of outer loop"); //1
+    }
+    // T= 6n + 4 + 6n^2 + 4 + 3n^2 + n + 1
+    // T = 9n^2 + 11n + 5
+    // Time complexity ==> O(n^2)

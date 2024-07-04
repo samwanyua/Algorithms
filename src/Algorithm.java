@@ -1,5 +1,8 @@
+import Array.Array;
+
 public class Algorithm {
     public static void main(String[] args) {
-        System.out.println("Hello world!");
+        Array array = new Array();
+        array.arrayDemo();
     }
 }

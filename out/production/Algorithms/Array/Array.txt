@@ -1,0 +1,29 @@
+Arrays
+- contiguous or adjacent partitions
+- fixed size and can't be modified once created
+- indexed and can be determined by its position
+- collection of data elements of specified type
+- All data holding partitions have contiguous memory locations
+- Each partition has two neighbours except the first and last one
+- Index starts at 0 and for one dimensional array ends at length - 1
+
+Declaration of an array
+- 1D arrays can be declared as follows:
+    dataType arrayName[];
+    dataType[] arrayName;
+
+    example:
+    int[] marks;
+
+Initializing an array
+- It gives memory to array of elements.
+- General syntax:
+    arrayName = new dataType[size];
+    marks = new Integer[20];
+
+Declaration and initialization
+- General syntax:
+    dataType[] arrayName = new dataType[size];
+    int[] marks = new int[20];
+    int[] marks = {3,4,5,6,2,7};
+
