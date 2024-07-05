@@ -125,12 +125,13 @@ public class Array {
     }
 
     // Resizing an array
-    public void resize(int[] arr, int capacity){
+    public int[] resize(int[] arr, int capacity){
         int[] temp = new int[capacity]; // temporary array
         for(int i = 0; i < arr.length; i++){
             temp[i] = arr[i]; // copying values
         }
-        arr = temp;
+//        arr = temp;
+        return temp;
     }
 
 
