@@ -92,5 +92,19 @@ public class Array {
     // Given an array of integers return the second maximum value
     // input: arr = {12,34,2,34,33,1}
     // output: 33
+    public int findSecondMax(int[] arr){
+        int max = Integer.MIN_VALUE; // Integer.MIN_VALUE = -2147483648
+        int secondMax = Integer.MIN_VALUE;
+        for(int i: arr){
+            if(i > max){
+                secondMax = max;
+                max = i;
+            }
+            else if( i > secondMax && i != max){
+                secondMax = i;
+            }
+        }
+        return  secondMax;
+    }
 
 }
