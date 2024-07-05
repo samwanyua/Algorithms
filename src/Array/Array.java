@@ -107,4 +107,23 @@ public class Array {
         return  secondMax;
     }
 
+    // Move all zeros to end of the array while maintaining the relative order of non-zero elements
+    // Given array of integers - {0,1,0,4,12}
+    // Output - {1,4,12,0,0}
+    public void moveZeros(int[] arr, int n){
+        int j = 0; // this is an index not the value
+        for(int i = 0; i < n; i++){
+            if(arr[i] != 0 && arr[j] == 0){
+                int temp = arr[i];
+                arr[i] = arr[j];
+                arr[j] = temp;
+            }
+            if(arr[j] != 0){
+                j++;
+            }
+        }
+    }
+
+
+
 }
