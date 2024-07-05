@@ -149,5 +149,22 @@ public class Array {
         return sum;
     }
 
+    // Checking if a string is palindrome or not
+    // Example: given string "madam"
+    // solution : true
+    public boolean isPalindrome(String word){
+        char[] charArray = word.toCharArray();
+        int start = 0;
+        int end = word.length() - 1;
+        while(start < end){
+            if(charArray[start] != charArray[end]){
+                return false;
+            }
+            start++;
+            end--;
+        }
+        return true;
+    }
+
 
 }
