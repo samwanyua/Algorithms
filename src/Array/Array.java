@@ -130,10 +130,24 @@ public class Array {
         for(int i = 0; i < arr.length; i++){
             temp[i] = arr[i]; // copying values
         }
-//        arr = temp;
+        // arr = temp;
         return temp;
     }
 
+    // Find the missing number in an array
+    // Given an array of n-1 distinct numbers in the range of 1 to n
+    // Find the missing number in it
+    // Input: arr = {2,4,1,8,6,3,7}
+    // Output: 5 - the missing number from range 1 to 8 is 5
+    // Solution: sum of n natural numbers = (n * (n + 1))/2
+    public int findMissingNumber(int[] arr){
+        int n = arr.length + 1;
+        int sum = n * (n + 1)/2;
+        for(int num : arr){
+            sum = sum - num;
+        }
+        return sum;
+    }
 
 
 }
