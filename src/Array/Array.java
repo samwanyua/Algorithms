@@ -97,7 +97,7 @@ public class Array {
         int secondMax = Integer.MIN_VALUE;
         for(int i: arr){
             if(i > max){
-                secondMax = max;
+                secondMax = max; // the value of max is assigned to secondMax before max is assigned to the new max value
                 max = i;
             }
             else if( i > secondMax && i != max){
@@ -122,6 +122,15 @@ public class Array {
                 j++;
             }
         }
+    }
+
+    // Resizing an array
+    public void resize(int[] arr, int capacity){
+        int[] temp = new int[capacity]; // temporary array
+        for(int i = 0; i < arr.length; i++){
+            temp[i] = arr[i]; // copying values
+        }
+        arr = temp;
     }
 
 
