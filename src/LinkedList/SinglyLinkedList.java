@@ -23,6 +23,22 @@ public class SinglyLinkedList {
         System.out.println("null");
     }
 
+    // Finding the length of a singly linkedList
+    public int singlyLinkedListLength(){
+        // edge case
+        if(head == null) {
+            return 0;
+        }
+
+        int count = 0;
+        ListNode current = head;
+        while (current != null){
+            count++;
+            current = current.next;
+        }
+        return count;
+    }
+
     public static void main(String[] args) {
         // Singly linkedList
         SinglyLinkedList singlyLinkedList = new SinglyLinkedList();
@@ -37,5 +53,7 @@ public class SinglyLinkedList {
         third.next = fourth; // now we have 10 --> 1 --> 8 --> 11 --> null
 
         singlyLinkedList.printLinkedList();
+        // printing the length of the linkedList
+        System.out.println("Length is = " + singlyLinkedList.singlyLinkedListLength());
     }
 }
