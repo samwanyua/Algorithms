@@ -88,7 +88,7 @@ public class SinglyLinkedList {
         singlyLinkedList.printLinkedList();
 
         // insert last
-        singlyLinkedList.insertLast(333333333);
+        singlyLinkedList.insertLast(4723);
         singlyLinkedList.printLinkedList();
 
     }
