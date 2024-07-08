@@ -18,4 +18,3 @@ Implementation of a singly linkedList
         private ListNode next;
     }
 
- 

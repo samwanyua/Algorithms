@@ -1,12 +1,12 @@
 package LinkedList;
 
 public class SinglyLinkedList {
-    private ListNode head;
+    private ListNode head; // instace variable of type ListNode... then create ListNode class
 
     private static class ListNode{
-        private int data;
+        private final int  data; // property
         private ListNode next;
-
+        // constructor
         public ListNode(int data) {
             this.data = data;
             this.next = null;
