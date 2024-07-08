@@ -4,3 +4,18 @@ Singly linked list
     * node has a data and reference to the next node in a list
     * first node is the head node
     * last node had data and points to null
+
+Implementation of a singly linkedList
+    // Generic type
+    public class ListNode<T>{
+        private T data;
+        private ListNode<T> next;
+    }
+
+    // Integer type
+    public class ListNode{
+        private int data;
+        private ListNode next;
+    }
+
+ 
