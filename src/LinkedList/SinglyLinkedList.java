@@ -1,7 +1,7 @@
 package LinkedList;
 
 public class SinglyLinkedList {
-    private ListNode head; // instace variable of type ListNode... then create ListNode class
+    private ListNode head; // instance variable of type ListNode... then create ListNode class
 
     private static class ListNode{
         private final int  data; // property
@@ -58,6 +58,28 @@ public class SinglyLinkedList {
             current = current.next;
         }
         current.next = newNode;
+    }
+
+    // Inserting a node at a given position
+    public void insertAtGivenPosition(int position, int value){
+        ListNode node = new ListNode(value);
+        // to insert at the first place
+        if(position == 1){
+            node.next = head;
+            head = node;
+        }
+        else{
+            ListNode previous = head;
+            int count = 1; // help us to traverse to position -1
+            while(count < position -1){
+                previous = previous.next;
+                count++;
+            }
+            ListNode current = previous.next;
+            previous.next = node;
+            node.next = current;
+        }
+
     }
 
     public static void main(String[] args) {
