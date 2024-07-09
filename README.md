@@ -34,3 +34,78 @@ To get started with this repository, you'll need to clone it to your local machi
 1. Clone the repository:
    ```sh
    git clone https://github.com/samwanyua/algorithms.git
+
+## Data Structures
+
+### Arrays
+- Array Initialization
+- Array Traversal
+- Array Insertion and Deletion
+
+### Linked Lists
+- Singly Linked List
+- Doubly Linked List
+- Circular Linked List
+
+### Stacks
+- Stack Implementation using Arrays
+- Stack Implementation using Linked Lists
+
+### Queues
+- Queue Implementation using Arrays
+- Queue Implementation using Linked Lists
+- Circular Queue
+
+### Trees
+- Binary Tree
+- Binary Search Tree
+- AVL Tree
+- Red-Black Tree
+
+### Hash Tables
+- Hash Table Implementation
+- Collision Resolution Techniques (Chaining, Open Addressing)
+
+## Algorithms
+
+### Sorting
+- Bubble Sort
+- Selection Sort
+- Insertion Sort
+- Merge Sort
+- Quick Sort
+- Heap Sort
+
+### Searching
+- Linear Search
+- Binary Search
+- Depth-First Search (DFS)
+- Breadth-First Search (BFS)
+
+### Dynamic Programming
+- Fibonacci Sequence
+- Longest Common Subsequence
+- Knapsack Problem
+- Matrix Chain Multiplication
+
+### Graph Algorithms
+- Dijkstra's Algorithm
+- Kruskal's Algorithm
+- Prim's Algorithm
+- Bellman-Ford Algorithm
+
+### Other Algorithms
+- Euclidean Algorithm (GCD)
+- Sieve of Eratosthenes (Prime Numbers)
+- KMP Algorithm (String Matching)
+
+## Contributing
+
+Contributions are welcome! If you have an algorithm or data structure that you'd like to add or if you find a bug, please open an issue or submit a pull request.
+
+1. Fork the repository
+2. Create a new branch (`git checkout -b feature/your-feature`)
+3. Commit your changes (`git commit -am 'Add some feature'`)
+4. Push to the branch (`git push origin feature/your-feature`)
+5. Create a new Pull Request
+
