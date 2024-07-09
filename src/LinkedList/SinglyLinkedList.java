@@ -82,6 +82,17 @@ public class SinglyLinkedList {
 
     }
 
+    // Deleting the first node of a singly linkedList
+    public ListNode deleteFirst(){
+        if(head == null){
+            return null;
+        }
+        ListNode temp = head;
+        head = head.next;
+        temp.next = null;
+        return temp;
+    }
+
     public static void main(String[] args) {
         // Singly linkedList
         SinglyLinkedList singlyLinkedList = new SinglyLinkedList();
@@ -114,6 +125,9 @@ public class SinglyLinkedList {
         singlyLinkedList.printLinkedList();
 
         singlyLinkedList.insertAtGivenPosition(4,32);
+        singlyLinkedList.printLinkedList();
+
+        System.out.println(singlyLinkedList.deleteFirst().data);
         singlyLinkedList.printLinkedList();
     }
 }
