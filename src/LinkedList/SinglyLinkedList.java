@@ -103,15 +103,17 @@ public class SinglyLinkedList {
 
         // Inserting node at the beginning of the linkedList
         singlyLinkedList.insertFirst(109);
-        singlyLinkedList.insertFirst(45);
-        singlyLinkedList.insertFirst(34);
-        singlyLinkedList.insertFirst(23);
-        singlyLinkedList.insertFirst(14309);
+//        singlyLinkedList.insertFirst(45);
+//        singlyLinkedList.insertFirst(34);
+//        singlyLinkedList.insertFirst(23);
+//        singlyLinkedList.insertFirst(14309);
         singlyLinkedList.printLinkedList();
 
         // insert last
         singlyLinkedList.insertLast(4723);
         singlyLinkedList.printLinkedList();
 
+        singlyLinkedList.insertAtGivenPosition(4,32);
+        singlyLinkedList.printLinkedList();
     }
 }

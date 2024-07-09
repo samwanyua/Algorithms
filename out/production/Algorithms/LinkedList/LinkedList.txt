@@ -1,15 +1,20 @@
-LinkedList
-- data structure that stores collection of data
-- contain sequential nodes
-- first node is the head
-- last node is the tail
+Singly linked list
+- a data structure used for collection of nodes that have the following properties:
+    * contain sequence of nodes
+    * node has a data and reference to the next node in a list
+    * first node is the head node
+    * last node had data and points to null
 
-Creating a single linkedList
-// head is an instance variable
-head = new ListNode(10); // data is 10, currently head points to null
-ListNode second = new ListNode(1); // next is pointing to null, data is 1
-ListNode third = new ListNode(8);
-ListNode fourth = new ListNode(11);
-head.next = second;
-second.next = third;
-third.next = fourth;
+Implementation of a singly linkedList
+    // Generic type
+    public class ListNode<T>{
+        private T data;
+        private ListNode<T> next;
+    }
+
+    // Integer type
+    public class ListNode{
+        private int data;
+        private ListNode next;
+    }
+
