@@ -18,3 +18,7 @@ Implementation of a singly linkedList
         private ListNode next;
     }
 
+LinkedList don't have continuous memory allocation as in arrays
+Head - the first node
+Insertion in singly linkedList - O(n)
+
