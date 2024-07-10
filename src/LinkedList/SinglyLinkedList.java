@@ -93,6 +93,21 @@ public class SinglyLinkedList {
         return temp;
     }
 
+    // Deleting the last node of a singly linkedList
+    public ListNode deleteLast(){
+        if(head == null || head.next == null){
+            return head;
+        }
+        ListNode current = head;
+        ListNode previous = null;
+        while(current.next != null){
+            previous = current;
+            current = current.next;
+        }
+        previous.next = null;
+        return current;
+    }
+
     public static void main(String[] args) {
         // Singly linkedList
         SinglyLinkedList singlyLinkedList = new SinglyLinkedList();
