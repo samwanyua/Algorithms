@@ -25,22 +25,36 @@ public class LinkedListDetailed {
             this.value = value;
             this.next = next;
         }
+    }
+    // Inserting first
+    public void insertFirst(int value){
+        Node node = new Node(value);
+        node.next = head;
+        head = node;
 
-        public void insertFirst(int value){
-            Node node = new Node(value);
-            node.next = head;
-            head = node;
-
-            if(tail == null){
-                tail = head;
-            }
-
-            size++;
+        if(tail == null){
+            tail = head;
         }
+
+        size++;
+    }
+
+    // print a linkedList
+    public void display(){
+        Node temp = head;
+        while(temp != null){
+            System.out.print(temp.value + " --> ");
+            temp = temp.next;
+        }
+        System.out.println("END!!");
     }
 
     public static void main(String[] args) {
-        LinkedListDetailed linkedListDetailed = new LinkedListDetailed();
-
+        LinkedListDetailed list = new LinkedListDetailed();
+        list.insertFirst(54);
+        list.insertFirst(2);
+        list.insertFirst(34);
+        list.insertFirst(23);
+        list.display();
     }
 }

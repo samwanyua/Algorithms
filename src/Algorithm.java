@@ -1,4 +1,5 @@
 import Array.Array;
+import LinkedList.LinkedListDetailed;
 import LinkedList.SinglyLinkedList;
 
 import java.util.Arrays;
