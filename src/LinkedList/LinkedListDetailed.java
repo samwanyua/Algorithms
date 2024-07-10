@@ -61,12 +61,40 @@ public class LinkedListDetailed {
         size++;
     }
 
+    // insert at a particular position
+    public void insertAt(int val, int index){
+        if(index == 0){
+            insertFirst(val);
+            return;
+        }
+        if(index == size){
+            insertLast(val);
+            return;
+        }
+
+        Node temp = head;
+        for(int i = 1; i < index; i++){
+            temp = temp.next;
+        }
+
+        Node node = new Node(val, temp.next);
+        temp.next = node;
+        size++;
+
+    }
+
     public static void main(String[] args) {
         LinkedListDetailed list = new LinkedListDetailed();
         list.insertFirst(54);
         list.insertFirst(2);
         list.insertFirst(34);
         list.insertFirst(23);
+        list.display();
+
+        list.insertLast(3444);
+        list.display();
+
+        list.insertAt(3442, 4);
         list.display();
     }
 }
