@@ -49,6 +49,18 @@ public class LinkedListDetailed {
         System.out.println("END!!");
     }
 
+    // Insert last
+    public void insertLast(int val){
+        if(tail == null){
+            insertFirst(val);
+            return;
+        }
+        Node node = new Node(val); // create a node
+        tail.next = node;
+        tail = node;
+        size++;
+    }
+
     public static void main(String[] args) {
         LinkedListDetailed list = new LinkedListDetailed();
         list.insertFirst(54);
