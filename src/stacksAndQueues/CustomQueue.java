@@ -26,5 +26,8 @@ public class CustomQueue {
         if(isFull()){
             return false;
         }
+        data[end] = item;
+        end++;
+        return true;
     }
 }
