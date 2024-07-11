@@ -27,7 +27,9 @@ public class CustomQueue {
             return false;
         }
         data[end] = item;
-        end++;
+        end++; // same as data[end++] = item;
         return true;
     }
+
+
 }
