@@ -53,10 +53,24 @@ public class CircularQueue {
     }
 
     public void display(){
-        for(int i = front; i < end; i++){
-            System.out.print(data[i] + " <-- ");
+//        for(int i = front; i < end; i++){
+//            System.out.print(data[i] + " <-- ");
+//        }
+//        System.out.println("End");
+
+        if(isEmpty()){
+            System.out.println("Empty");
+            return;
         }
-        System.out.println("End");
+
+        int i = front;
+        do{
+            System.out.print(data[i] + " ->");
+            i++;
+            i %= data.length;
+        } while (i != end);
+        System.out.println("End!!");
+
     }
 
     public static void main(String[] args) throws Exception {
