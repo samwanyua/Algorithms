@@ -82,6 +82,8 @@ public class CircularQueue {
         circularQueue.display();
         System.out.println(circularQueue.remove()); // O(n)
         System.out.println(circularQueue.peek());
+        circularQueue.insert(324324);
+        circularQueue.display();
 
     }
 }
