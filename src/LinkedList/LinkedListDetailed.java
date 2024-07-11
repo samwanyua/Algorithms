@@ -83,6 +83,16 @@ public class LinkedListDetailed {
 
     }
 
+    public int deleteFirst(){
+        int value = head.value;
+        head = head.next;
+        if(head == null){
+            tail = null;
+        }
+        size--;
+        return value;
+    }
+
     public static void main(String[] args) {
         LinkedListDetailed list = new LinkedListDetailed();
         list.insertFirst(54);
@@ -94,7 +104,7 @@ public class LinkedListDetailed {
         list.insertLast(3444);
         list.display();
 
-        list.insertAt(3442, 4);
+        list.insertAt(56, 5);
         list.display();
     }
 }
