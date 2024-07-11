@@ -1,5 +1,7 @@
 package stacksAndQueues;
 
+import java.util.Arrays;
+
 public class StackImplementation {
     protected int[] data;
     private static final int DEFAULT_SIZE = 10;
@@ -50,6 +52,20 @@ public class StackImplementation {
 
     private boolean isEmpty() {
         return pointer == - 1;
+    }
+
+    public static void main(String[] args) throws StackException {
+        StackImplementation stackImplementation = new StackImplementation(8);
+        stackImplementation.push(90);
+        stackImplementation.push(23);
+        stackImplementation.push(25);
+        stackImplementation.push(54);
+        stackImplementation.push(76);
+
+        System.out.println(stackImplementation.pop());
+        System.out.println(stackImplementation.peek());
+
+
     }
 
 
