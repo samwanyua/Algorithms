@@ -32,7 +32,16 @@ public class StackImplementation {
         int removed = data[pointer];
         pointer--;
 
-        return removed;
+        return removed; // return data[pointer--]; --> simplified
+    }
+
+    // peek - the topmost value
+    public int peek() throws Exception{
+        if(isEmpty()){
+            throw new Exception("Cannot pop from an empty stack");
+        }
+
+        return data[pointer];
     }
 
     private boolean isFull() {
