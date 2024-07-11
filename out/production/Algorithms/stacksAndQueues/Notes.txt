@@ -1,0 +1,10 @@
+Stacks
+- Last In First out/ First in Last out
+- Push --> Insert an item at the top most
+- Pop --> removes the top most item
+
+Queue
+- Last in Last out/ First in First out
+- Insertion - at the end
+-
+

@@ -95,7 +95,7 @@ public class LinkedListDetailed {
     }
 
     // delete last node
-    
+
 
     public static void main(String[] args) {
         LinkedListDetailed list = new LinkedListDetailed();
