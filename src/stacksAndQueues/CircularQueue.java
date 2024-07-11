@@ -44,4 +44,11 @@ public class CircularQueue {
         size--;
         return removed;
     }
+
+    public int peek() throws Exception{
+        if(isEmpty()){
+            throw new Exception("Queue is empty");
+        }
+        return data[front];
+    }
 }
