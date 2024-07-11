@@ -5,8 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="fba9d3a9-d719-4d24-9f67-e4f07cbbe27a" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/stacksAndQueues/StackImplementation.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/stacksAndQueues/StackImplementation.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/stacksAndQueues/StackImplementation.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />

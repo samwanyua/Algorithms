@@ -24,12 +24,23 @@ public class StackImplementation {
         return true;
     }
 
+    public int pop() throws Exception{
+        if(isEmpty()){
+            throw new Exception("Cannot pop from an empty stack");
+        }
+
+        int removed = data[pointer];
+        pointer--;
+
+        return removed;
+    }
+
     private boolean isFull() {
         return pointer == data.length - 1; // pointer at the last index
     }
 
     private boolean isEmpty() {
-        return pointer == - 1; 
+        return pointer == - 1;
     }
 
 
