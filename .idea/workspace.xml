@@ -37,6 +37,7 @@
   "keyToString": {
     "ASKED_ADD_EXTERNAL_FILES": "true",
     "Application.Algorithm.executor": "Run",
+    "Application.CustomQueue.executor": "Run",
     "Application.LinkedListDetailed.executor": "Run",
     "Application.Queues.executor": "Run",
     "Application.SinglyLinkedList.executor": "Run",

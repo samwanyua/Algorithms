@@ -51,5 +51,28 @@ public class CustomQueue {
         return data[0];
     }
 
+    public void display(){
+        for(int i = 0; i < end; i++){
+            System.out.print(data[i] + " <-- ");
+        }
+        System.out.println("End");
+    }
+
+    public static void main(String[] args) throws Exception {
+        CustomQueue queue = new CustomQueue(12);
+        queue.insert(32);
+        queue.insert(5);
+        queue.insert(31);
+        queue.insert(21);
+
+        queue.display();
+        queue.remove();
+        queue.display();
+        System.out.println(queue.peek());
+
+
+
+    }
+
 
 }
