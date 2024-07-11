@@ -23,4 +23,14 @@ public class StackImplementation {
         data[pointer] = item;
         return true;
     }
+
+    private boolean isFull() {
+        return pointer == data.length - 1; // pointer at the last index
+    }
+
+    private boolean isEmpty() {
+        return pointer == - 1; 
+    }
+
+
 }
