@@ -51,4 +51,23 @@ public class CircularQueue {
         }
         return data[front];
     }
+
+    public void display(){
+        for(int i = front; i < end; i++){
+            System.out.print(data[i] + " <-- ");
+        }
+        System.out.println("End");
+    }
+
+    public static void main(String[] args) throws Exception {
+        CircularQueue circularQueue = new CircularQueue(10);
+        circularQueue.insert(344);
+        circularQueue.insert(7429837);
+        circularQueue.insert(421897);
+
+        circularQueue.display();
+        System.out.println(circularQueue.remove()); // O(n)
+        System.out.println(circularQueue.peek());
+
+    }
 }
