@@ -46,7 +46,7 @@ public class StackImplementation {
         return data[pointer];
     }
 
-    private boolean isFull() {
+    public boolean isFull() {
         return pointer == data.length - 1; // pointer at the last index
     }
 
