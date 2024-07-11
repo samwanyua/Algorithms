@@ -6,5 +6,9 @@ Stacks
 Queue
 - Last in Last out/ First in First out
 - Insertion - at the end
--
+
+Deque
+- you can insert and remove from both sides
+- Comes in handy in trees - printing left to right or right to left
+
 
