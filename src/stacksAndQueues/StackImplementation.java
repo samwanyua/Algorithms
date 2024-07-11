@@ -56,6 +56,7 @@ public class StackImplementation {
 
     public static void main(String[] args) throws StackException {
         StackImplementation stackImplementation = new StackImplementation(8);
+        DynamicStack dynamicStack = new DynamicStack(4); // THIS IS A DYNAMIC STACK
         stackImplementation.push(90);
         stackImplementation.push(23);
         stackImplementation.push(25);
