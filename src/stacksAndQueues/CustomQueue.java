@@ -31,5 +31,18 @@ public class CustomQueue {
         return true;
     }
 
+    public int remove() throws Exception{
+        if(isEmpty()){
+            throw new Exception("Queue is empty");
+        }
+        int removed = data[0];
+        // now shift elements to the left
+        for(int i = 1; i < end; i++) {
+            data[i-1] = data[i];
+        }
+        end--;
+        return removed;
+    }
+
 
 }
