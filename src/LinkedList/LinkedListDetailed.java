@@ -83,6 +83,7 @@ public class LinkedListDetailed {
 
     }
 
+    // delete first
     public int deleteFirst(){
         int value = head.value;
         head = head.next;
@@ -92,6 +93,9 @@ public class LinkedListDetailed {
         size--;
         return value;
     }
+
+    // delete last node
+    
 
     public static void main(String[] args) {
         LinkedListDetailed list = new LinkedListDetailed();
