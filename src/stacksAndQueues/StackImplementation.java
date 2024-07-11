@@ -38,7 +38,7 @@ public class StackImplementation {
     // peek - the topmost value
     public int peek() throws Exception{
         if(isEmpty()){
-            throw new Exception("Cannot pop from an empty stack");
+            throw new Exception("Cannot peek from an empty stack");
         }
 
         return data[pointer];
