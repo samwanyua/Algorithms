@@ -1,0 +1,4 @@
+HashMaps - Key value - pair
+- O(1)
+- map.get("Sam"); // the value associated with Sam, O(1)
+- 
