@@ -84,6 +84,7 @@ public class CircularQueue {
         System.out.println(circularQueue.peek());
         circularQueue.insert(324324);
         circularQueue.display();
+        circularQueue.display();
 
     }
 }
