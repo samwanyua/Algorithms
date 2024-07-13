@@ -5,5 +5,7 @@ public class HashMaps {
         String comment = "Better";
         int count = comment.hashCode();
         System.out.println(count);
+        System.out.println(count);
+        System.out.println(count);
     }
 }
