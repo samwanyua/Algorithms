@@ -6,3 +6,10 @@ Algorithms
 - faster searches of small data sets
 - does not need to be sorted
 - useful for data structures that do not have random access (linked list)
+
+* Binary search
+- search algorithm that finds the position of a target value within a sorted array
+- half of the array is eliminated during each step
+- the elements needs to be sorted
+- runtime O(log n)
+- efficient with large data sets
