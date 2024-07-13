@@ -2,7 +2,7 @@ package Algorithms.LinearSearch;
 
 public class LinearSearch {
     public static void main(String[] args) {
-        int[] array = {9,1,84,53,55,32,45,3,34,341};
+        int[] array = {9,1,84,53,55,32,45,3,34,341,32,324,34213};
         int index = searchLinearly(array, 341);
 
         if(index != -1){
