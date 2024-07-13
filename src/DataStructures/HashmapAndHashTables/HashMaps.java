@@ -1,4 +1,4 @@
-package HashmapAndHashTables;
+package DataStructures.HashmapAndHashTables;
 
 public class HashMaps {
     public static void main(String []args){

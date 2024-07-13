@@ -1,6 +1,4 @@
-package stacksAndQueues;
-
-import java.util.Arrays;
+package DataStructures.StacksAndQueues;
 
 public class StackImplementation {
     protected int[] data;

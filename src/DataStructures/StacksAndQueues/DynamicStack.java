@@ -1,4 +1,4 @@
-package stacksAndQueues;
+package DataStructures.StacksAndQueues;
 
 public class DynamicStack extends StackImplementation{
     public DynamicStack() {

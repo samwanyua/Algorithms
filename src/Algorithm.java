@@ -1,6 +1,4 @@
-import Array.Array;
-import LinkedList.LinkedListDetailed;
-import LinkedList.SinglyLinkedList;
+import DataStructures.Array.Array;
 
 import java.util.Arrays;
 

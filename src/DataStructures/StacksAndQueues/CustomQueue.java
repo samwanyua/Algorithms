@@ -1,4 +1,4 @@
-package stacksAndQueues;
+package DataStructures.StacksAndQueues;
 
 public class CustomQueue {
     private int[] data;

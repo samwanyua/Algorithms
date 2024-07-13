@@ -1,4 +1,4 @@
-package LinkedList;
+package DataStructures.LinkedList;
 
 public class SinglyLinkedList {
     private ListNode head; // instance variable of type ListNode... then create ListNode class

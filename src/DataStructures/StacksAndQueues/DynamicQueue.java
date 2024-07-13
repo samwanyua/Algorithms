@@ -1,4 +1,4 @@
-package stacksAndQueues;
+package DataStructures.StacksAndQueues;
 
 public class DynamicQueue extends CircularQueue {
     public DynamicQueue() {

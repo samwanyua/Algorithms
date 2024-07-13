@@ -5,7 +5,26 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="fba9d3a9-d719-4d24-9f67-e4f07cbbe27a" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/src/HashmapAndHashTables/HashMaps.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/HashmapAndHashTables/HashMaps.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Algorithms/Algorithm.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Algorithm.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Algorithm.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Array/Array.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/DataStructures/Array/Array.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Array/Array.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/DataStructures/Array/Array.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/HashmapAndHashTables/HashMaps.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/DataStructures/HashmapAndHashTables/HashMaps.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/HashmapAndHashTables/Hashmaps.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/DataStructures/HashmapAndHashTables/Hashmaps.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Introduction/Intro.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/DataStructures/Introduction/Intro.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/LinkedList/LinkedList.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/DataStructures/LinkedList/LinkedList.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/LinkedList/LinkedListDetailed.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/DataStructures/LinkedList/LinkedListDetailed.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/LinkedList/SinglyLinkedList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/DataStructures/LinkedList/SinglyLinkedList.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/stacksAndQueues/CircularQueue.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/DataStructures/StacksAndQueues/CircularQueue.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/stacksAndQueues/CustomQueue.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/DataStructures/StacksAndQueues/CustomQueue.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/stacksAndQueues/DynamicQueue.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/DataStructures/StacksAndQueues/DynamicQueue.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/stacksAndQueues/DynamicStack.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/DataStructures/StacksAndQueues/DynamicStack.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/stacksAndQueues/Notes.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/DataStructures/StacksAndQueues/Notes.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/stacksAndQueues/Queues.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/DataStructures/StacksAndQueues/Queues.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/stacksAndQueues/StackException.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/DataStructures/StacksAndQueues/StackException.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/stacksAndQueues/StackImplementation.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/DataStructures/StacksAndQueues/StackImplementation.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/stacksAndQueues/Stacks.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/DataStructures/StacksAndQueues/Stacks.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -68,9 +87,9 @@
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="java-method">
-          <url>file://$PROJECT_DIR$/src/LinkedList/LinkedListDetailed.java</url>
+          <url>file://$PROJECT_DIR$/src/DataStructures/LinkedList/LinkedListDetailed.java</url>
           <line>64</line>
-          <properties class="LinkedList.LinkedListDetailed" method="insertAnywhere">
+          <properties class="DataStructures.LinkedList.LinkedListDetailed" method="insertAt">
             <option name="EMULATED" value="true" />
             <option name="WATCH_EXIT" value="false" />
           </properties>

@@ -1,4 +1,4 @@
-package Array;
+package DataStructures.Array;
 
 public class Array {
     public void arrayDemo(){

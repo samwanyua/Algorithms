@@ -1,0 +1,8 @@
+Algorithms
+* Linear search
+- iterates through a collection one element at a time
+- runtime of O(1)
+- slow for large data sets
+- faster searches of small data sets
+- does not need to be sorted
+- useful for data structures that do not have random access (linked list)

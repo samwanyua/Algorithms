@@ -1,6 +1,4 @@
-package LinkedList;
-
-import java.util.LinkedList;
+package DataStructures.LinkedList;
 
 public class LinkedListDetailed {
 
