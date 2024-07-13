@@ -6,6 +6,5 @@ public class HashMaps {
         int count = comment.hashCode();
         System.out.println(count);
         System.out.println(count);
-        System.out.println(count);
     }
 }
