@@ -4,10 +4,10 @@ import java.util.Arrays;
 
 public class BinarySearch {
     public static void main(String[] args){
-        int[] array = new int[1000];
-        int target = 23;
+        int[] array = new int[10];
+        int target = 8;
 
-        for(int i = 10; i < array.length; i++){
+        for(int i = 1; i < array.length; i++){
             array[i] = i;
         }
 
