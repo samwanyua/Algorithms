@@ -4,7 +4,7 @@ import java.util.Arrays;
 
 public class BinarySearch {
     public static void main(String[] args){
-        int[] array = new int[100];
+        int[] array = new int[1000];
         int target = 23;
 
         for(int i = 10; i < array.length; i++){
