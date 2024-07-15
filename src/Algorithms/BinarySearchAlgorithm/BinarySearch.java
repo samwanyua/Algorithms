@@ -9,7 +9,6 @@ public class BinarySearch {
 
         for(int i = 10; i < array.length; i++){
             array[i] = i;
-            System.out.println("Print"); //sample
         }
 
         int result = Arrays.binarySearch(array,target);
